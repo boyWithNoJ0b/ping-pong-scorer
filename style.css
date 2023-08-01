@@ -1,0 +1,67 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 97vh;
+    font-family: sans-serif;
+}
+
+img {
+    object-fit: cover;
+    height: 300px;
+    width: 500px;
+}
+
+.main-container {
+    text-align: center;
+}
+
+.score {
+    font-size: 2em;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+}
+
+.buttons {
+    margin-top: 10px;
+    display: flex;
+    gap: 2px;
+}
+.player-1 {
+    flex-grow: 1;
+    background-color: green;
+}
+.player-2 {
+    flex-grow: 1;
+    background-color: blue;
+}
+.reset {
+    flex-grow: 1;
+    background-color: red;
+}
+.button {
+    padding: 10px;
+    color: white;
+    border-radius: 5px;
+    border-style: none;
+    cursor: pointer;
+    transition: all 0.3s;
+
+}
+.button:hover {
+    opacity: 0.8;
+    transition: all 0.2s;
+}
+
+span {
+    font-size: 2em;
+    font-weight: 600;
+    transition: all 0.5s;
+}
+
+.disabled {
+    opacity: 0.5;
+}
